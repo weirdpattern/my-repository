@@ -7,6 +7,6 @@
   },
   "scripts": {
     "test": "exit 0",
-    "precommit": "npm test -loglevel debug"
+    "precommit": "npm test --loglevel warn"
   }
 }
