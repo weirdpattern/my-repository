@@ -1,4 +1,12 @@
 {
   "name": "my-repository",
-  "author": "patricio trevino <patricio@weirdpattern.com>"
+  "version": "1.0.0",
+  "author": "patricio trevino <patricio@weirdpattern.com>",
+  "devDependencies": {
+    "husky": "^0.14.3"
+  },
+  "scripts": {
+    "test": "exit 1",
+    "precommit": "npm test"
+  }
 }
